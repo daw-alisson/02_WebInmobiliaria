@@ -1,0 +1,37 @@
+ /* Fondo negro total */
+ .header-bg {
+    background-color: #000;
+    color: white;
+}
+
+/* Estilo del botón de login */
+.login-btn {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Efecto hover en el botón */
+.login-btn:hover {
+    background-color: rgba(60, 60, 60, 0.2);
+    color: white;
+}
+
+/* Estilo de la tabla*/
+.custom-table {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
